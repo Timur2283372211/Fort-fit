@@ -19632,11 +19632,18 @@ fieldset[disabled] .btn-danger {
 	display: block;
 }
 
-.thumbnail-classic img, .thumbnail-terry img,
+.thumbnail-classic img, .thumbnail-terry,
 .thumbnail-classic figure img,
 .thumbnail-terry figure img {
 	width: 100%;
 	height: auto;
+	transition: .35s;
+	will-change: transform;
+}
+
+.thumbnail-terry img{
+	width: 100%;
+	height: 600px;
 	transition: .35s;
 	will-change: transform;
 }

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "site",
+			"path": "../51682/site"
+		},
+		{
+			"name": "Fort-fit",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site",
+		"liveServer.settings.port": 5501
+	}
+}
